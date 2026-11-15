@@ -1,0 +1,11 @@
+
+path: /root/yolo-multimodal/datasets/
+
+train: images/train
+val: images/val
+test:
+
+
+names:
+  0: person
+
