@@ -37,5 +37,6 @@ weights/
 *.onnx
 *.engine
 *.zip
+!supplementary/Supplementary_File_S1_M3FD_Split.zip
 *.tar
 *.7z
