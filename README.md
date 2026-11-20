@@ -17,7 +17,6 @@ CHSF-Net is a dual-stream RGB–infrared multimodal object detection framework b
 ## Reproducibility files
 
 - [Supplementary File S1: M3FD split](supplementary/Supplementary_File_S1_M3FD_Split.zip) contains the fixed train, validation, and test frame-ID lists, class mapping, and split metadata used in the paper. It does not redistribute M3FD images or annotations.
-- [HNEM temperature-gate example](examples/hnem_temperature_gate.py) is a standalone check of the learnable positive temperature and high-frequency coefficient weighting. The HNEM implementation used by the complete model is in [`CHSFNet.py`](ultralytics/nn/AddModules/CHSFNet.py).
 
 ## Repository Structure
 
@@ -31,8 +30,6 @@ CHSF-Net/
 │       └── AddModules/
 │           └── CHSFNet.py          # CHSF-Net modules
 ├── data.yaml                       # Dataset configuration
-├── examples/
-│   └── hnem_temperature_gate.py     # Standalone HNEM verification
 ├── supplementary/
 │   └── Supplementary_File_S1_M3FD_Split.zip  # Fixed M3FD split
 ├── train.py                        # Training entry point
